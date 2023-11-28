@@ -1,0 +1,2 @@
+# GenshinReward
+bad code
