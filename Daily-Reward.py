@@ -11,7 +11,7 @@ async def main():
     client.lang = "ja-jp"
     client.region = genshin.Region.OVERSEAS
     client.default_game = genshin.Game.GENSHIN
-    client.uid = 849157751  # ここgame内のuid
+    client.uid = 849157751  # ここgame内のuid(正直なくていい)
 
     try:
         reward = await client.claim_daily_reward()
